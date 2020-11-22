@@ -1,0 +1,11 @@
+:root {
+  --TextCard: #4c506b;
+  --white: #ffffff;
+  --bgpage: #f7f7ff;
+  --LightGrayishBlue: #d0d0db;
+  --GrayishBlue: #8b8ba2;
+  --switch1: hsl(236, 72%, 79%);
+  --switch2: hsl(237, 63%, 64%);
+  --switchSpinner: #fdfefb;
+  --line: #f2f2f4;
+}

@@ -1,0 +1,44 @@
+.header .wrapper .conten_plans {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.header .wrapper .conten_plans .copy_switch {
+  margin: 5px 15px 0 15px;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--LightGrayishBlue);
+}
+.header .wrapper .conten_plans .switch {
+  width: 55px;
+  height: 30px;
+  background: linear-gradient(var(--switch1), var(--switch2));
+  border-radius: 100px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+}
+.header .wrapper .conten_plans .switch::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 3px 5px 1.5px 5px;
+  position: absolute;
+  background: var(--switchSpinner);
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.header .wrapper .conten_plans .monthly::after {
+  transition: 0.5s ease all;
+  left: unset;
+  right: 0;
+}

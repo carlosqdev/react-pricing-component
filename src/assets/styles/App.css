@@ -1,3 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import './Vars.css';
+
 body {
-  background-color: blue;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  background-color: var(--bgpage);
+  background-image: url(../static/bg-top.svg);
+  background-repeat: no-repeat;
+  background-position-y: -45px;
+  background-position-x: 130px;
+}
+@media screen and (min-width: 375px) {
+  body {
+    background-position-y: -50px;
+    background-position-x: 180px;
+  }
+}
+@media screen and (min-width: 425px) {
+  body {
+    background-position-x: 230px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-position-x: right;
+    background-position-y: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards {
+    background-image: url(../static/bg-bottom.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+  }
+  .cards .wrapper {
+    width: 765px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cards .wrapper .card {
+    max-width: 320px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    margin-top: 2.5rem;
+  }
+  .cards .wrapper {
+    width: auto;
+  }
+  .cards .wrapper .card {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 375px) {
+  .cards .wrapper .card {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .cards .wrapper .card {
+    max-width: 370px;
+    width: 370px;
+  }
 }
