@@ -34,11 +34,11 @@
   left: 0;
   right: unset;
   border-radius: 100px;
-  transition: 0.3s ease all;
+  transition: 1s ease all;
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .header .wrapper .conten_plans .monthly::after {
-  transition: 0.5s ease all;
+  transition: 1s ease all;
   left: unset;
   right: 0;
 }
