@@ -9,6 +9,7 @@ const Switch = () => {
     if (playmentPlan === 'Annually') {
       setPlaymentPlan('Monthly');
       setSwitchStyles('switch monthly')
+      console.log('cambiando estado');
     } else {
       setPlaymentPlan('Annually');
       setSwitchStyles('switch')
