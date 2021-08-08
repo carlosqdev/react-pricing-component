@@ -1,4 +1,4 @@
-.cards .wrapper .card {
+.card {
   max-width: 320px;
   width: 285px;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
@@ -9,47 +9,47 @@
   background-color: var(--white);
   color: var(--TextCard);
 }
-.cards .wrapper .card .title_card {
+.card .title_card {
   margin: 1rem 2rem 0 2rem;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1rem;
 }
-.cards .wrapper .card .card_body {
+.card .card_body {
   display: flex;
   flex-direction: column;
 }
-.cards .wrapper .card .card_body .cost {
+.card .card_body .cost {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 2rem 0 2rem;
 }
-.cards .wrapper .card .card_body .cost .symbol {
+.card .card_body .cost .symbol {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 35px;
   margin: 1.5rem 0.3rem 1.5rem 0;
 }
-.cards .wrapper .card .card_body .cost .price {
+.card .card_body .cost .price {
   margin: 1.5rem 0 1.5rem 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 60px;
 }
-.cards .wrapper .card .card_body .span {
+.card .card_body .span {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1rem;
 }
-.cards .wrapper .card .card_body .line {
+.card .card_body .line {
   padding: 1rem;
   margin: -1px 2rem 0 2rem;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
-.cards .wrapper .card .card_body .button {
+.card .card_body .button {
   margin: 2rem 2rem 0 2rem;
   padding: 1rem 0 1rem 0;
   border-radius: 8px;
@@ -63,12 +63,12 @@
   outline: none;
   cursor: pointer;
 }
-.cards .wrapper .card:hover {
+.card:hover {
   transition: 1s ease all;
   background: linear-gradient(var(--switch1), var(--switch2));
   color: var(--white);
 }
-.cards .wrapper .card:hover .card_body .button {
+.card:hover .card_body .button {
   transition: 1s ease all;
   border: 1px solid var(--line);
 }

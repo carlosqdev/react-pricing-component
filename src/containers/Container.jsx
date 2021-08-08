@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Switch from '../components/Switch';
+import Card from '../components/Card';
+import Api from '../Api';
 
 export const ContainerContext = React.createContext();
 
@@ -27,6 +29,14 @@ const Container = () => {
       <Header />
       <ContainerContext.Provider value={{planType, switchStyle, setPlanType, setSwitchStyle, changePlanType}}>
         <Switch />
+        <section className="cards">
+          <div className="wrapper">
+            {Api.map((item) =>
+              <Card key={item.id.toString()} {...item} />
+            )
+            }
+          </div>
+        </section>
       </ContainerContext.Provider>
     </>
   )
