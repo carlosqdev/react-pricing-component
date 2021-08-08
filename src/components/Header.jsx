@@ -1,5 +1,5 @@
 import React from 'react';
-import Switch from './Switch';
+// import Switch from './Switch';
 import '../assets/styles/components/Header.css';
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
         <div className="wrapper">
           <h1 className="title_h1">Our Pricing</h1>
-          <Switch />
+          {/* <Switch /> */}
         </div>
       </header>
   );

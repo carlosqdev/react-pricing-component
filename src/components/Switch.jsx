@@ -1,27 +1,15 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { ContainerContext } from '../containers/Container';
 import '../assets/styles/components/Switch.css';
 
-const Switch = () => {
-  const [ playmentPlan, setPlaymentPlan ] = useState('Annually');
-  const [ switchStyles, setSwitchStyles ] = useState('switch');
-
-  const handleChangePlaymentPlan = () => {
-    if (playmentPlan === 'Annually') {
-      setPlaymentPlan('Monthly');
-      setSwitchStyles('switch monthly')
-      console.log('cambiando estado');
-    } else {
-      setPlaymentPlan('Annually');
-      setSwitchStyles('switch')
-    }
-  };
-
+const Switch = (props) => {
+  const context = useContext(ContainerContext);
   return(
     <div className="conten_plans">
       <p className="copy_switch">Annually</p>
       <button
-        onClick={handleChangePlaymentPlan}
-        className={switchStyles}>
+        onClick={() => context.changePlanType()}
+        className={context.switchStyle}>
       </button>
       <p className="copy_switch">Monthly</p>
     </div>
