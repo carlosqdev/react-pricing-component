@@ -1,15 +1,9 @@
-import React, { Fragment } from 'react';
-import Header from '../components/Header';
-import CardList from '../components/CardList';
+import React from 'react';
+import Container from './Container';
 import '../assets/styles/App.css';
 
 const App = () => {
-  return (
-    <Fragment>
-      <Header />
-      <CardList />
-    </Fragment>
-  );
+  return <Container />;
 }
 
 export default App;
