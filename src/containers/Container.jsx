@@ -7,21 +7,21 @@ import Api from '../Api';
 export const ContainerContext = React.createContext();
 
 const Container = () => {
-  const [ planType, setPlanType ] = useState('Annually');
-  const [ switchStyle, setSwitchStyle ] = useState('switch');
+  const [ planType, setPlanType ] = useState('Monthly');
+  const [ switchStyle, setSwitchStyle ] = useState('switch monthly');
 
   useEffect(() => {
-    if(planType === "Monthly")
-      setSwitchStyle("switch monthly");
+    if(planType === "Annually")
+      setSwitchStyle("switch");
     else
-    setSwitchStyle("switch");
+      setSwitchStyle("switch monthly");
   },[planType])
 
   const changePlanType = () => {
-    if(planType === "Annually")
-      setPlanType("Monthly");
+    if(planType === "Monthly")
+      setPlanType("Annually");
     else
-      setPlanType("Annually")
+      setPlanType("Monthly")
   }
 
   return (

@@ -2,7 +2,7 @@ const Api = [
   {
     id: 1,
     plan: 'Basic',
-    price: 190.99,
+    price: 19,
     storage: '500 GB Storage',
     userAllow: '2 Users Allowed',
     sendUp: 'Send up to 3 GB',
@@ -10,7 +10,7 @@ const Api = [
   {
     id: 2,
     plan: 'Professional',
-    price: 240.99,
+    price: 24,
     storage: '1 TB Storage',
     userAllow: '5 Users Allowed',
     sendUp: 'Send up to 10 GB',
@@ -18,10 +18,18 @@ const Api = [
   {
     id: 3,
     plan: 'Master',
-    price: 390.99,
+    price: 39,
     storage: '2 TB Storage',
     userAllow: '10 Users Allowed',
     sendUp: 'Send up to 20 GB',
+  },
+  {
+    id: 4,
+    plan: 'Students',
+    price: 15,
+    storage: '500 GB Storage',
+    userAllow: '2 Users Allowed',
+    sendUp: 'Send up to 3 GB',
   }
 ]
 
