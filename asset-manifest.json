@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-pricing-component/static/css/main.4f07412e.chunk.css",
+    "main.js": "/react-pricing-component/static/js/main.c1ead793.chunk.js",
+    "main.js.map": "/react-pricing-component/static/js/main.c1ead793.chunk.js.map",
+    "runtime-main.js": "/react-pricing-component/static/js/runtime-main.c619a887.js",
+    "runtime-main.js.map": "/react-pricing-component/static/js/runtime-main.c619a887.js.map",
+    "static/js/2.b68cfbe6.chunk.js": "/react-pricing-component/static/js/2.b68cfbe6.chunk.js",
+    "static/js/2.b68cfbe6.chunk.js.map": "/react-pricing-component/static/js/2.b68cfbe6.chunk.js.map",
+    "static/js/3.7ad0b63e.chunk.js": "/react-pricing-component/static/js/3.7ad0b63e.chunk.js",
+    "static/js/3.7ad0b63e.chunk.js.map": "/react-pricing-component/static/js/3.7ad0b63e.chunk.js.map",
+    "index.html": "/react-pricing-component/index.html",
+    "static/css/main.4f07412e.chunk.css.map": "/react-pricing-component/static/css/main.4f07412e.chunk.css.map",
+    "static/js/2.b68cfbe6.chunk.js.LICENSE.txt": "/react-pricing-component/static/js/2.b68cfbe6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-pricing-component/static/media/bg-top.4980c1fd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c619a887.js",
+    "static/js/2.b68cfbe6.chunk.js",
+    "static/css/main.4f07412e.chunk.css",
+    "static/js/main.c1ead793.chunk.js"
+  ]
+}
